@@ -1,0 +1,79 @@
+body{
+    background-color: blue;
+}
+
+.input-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.watermark{
+   text-align: center;
+    margin-top: 206px;
+}
+
+.clear{
+    display: flex;
+    justify-content: center;
+    margin-left: 375px;
+     position: relative;
+    z-index: 1;
+}
+
+.filter{
+   display: flex;
+    justify-content: center;
+    margin-right: 150px;
+    margin-top: 0px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.kotak{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 500px;
+    background-color: rgb(131, 111, 58);
+    border-radius: 15px;
+    gap: 10px;
+    margin-top: -90px;
+    margin-left: 420px;
+}
+
+
+.tabel{
+   align-items: center;
+    margin-top: -229px;
+    margin-left: 480px;
+    width: 100px;
+    border-collapse: collapse;
+    font-size: 20px;
+    
+}
+thead{
+    background-color: chocolate;
+    color: black;
+}
+th, td {
+    padding: 12px 20px;
+    border: 1px ssolid #ddd;
+    
+}
+tr:nth-child{
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+footer{
+    margin-top: auto;
+}
